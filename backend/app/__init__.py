@@ -1,0 +1,1 @@
+# Mascotera IA Backend
