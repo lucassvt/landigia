@@ -86,6 +86,15 @@ export const modulesConfig: ModulesConfig = {
       requiredRole: ['admin', 'superadmin'],
     },
     {
+      id: 'monitor-bd',
+      name: 'Monitor BD',
+      description: 'Monitoreo de base de datos',
+      url: 'http://66.97.35.249/db-monitor.html',
+      icon: 'Database',
+      isActive: true,
+      requiredRole: ['admin', 'superadmin'],
+    },
+    {
       id: 'auditoria',
       name: 'Auditoria',
       description: 'Control y auditoría interna',

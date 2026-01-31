@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 import {
   Users, Store, Heart, Truck, ShoppingCart, Award,
   BarChart3, Package, Wallet, ClipboardCheck, FileText,
-  Bot, Building2, ExternalLink, Lock
+  Bot, Building2, Database, ExternalLink, Lock
 } from 'lucide-react'
 import ComingSoonModal from './ComingSoonModal'
 import { modulesConfig } from '@/lib/modules-config'
@@ -15,7 +15,7 @@ import { Module } from '@/types'
 const iconMap: Record<string, any> = {
   Users, Store, Heart, Truck, ShoppingCart, Award,
   BarChart3, Package, Wallet, ClipboardCheck, FileText,
-  Bot, Building2,
+  Bot, Building2, Database,
 }
 
 function ModuleItem({ module, onComingSoon }: { module: Module; onComingSoon: () => void }) {
